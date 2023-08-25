@@ -1,0 +1,107 @@
+* {
+  margin: 0 auto;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --bg-color: #8b4513;
+  --text-color-header: #8b4d4d;
+  --text-color-title-content: #3e3e3e;
+  --text-color-content: #757575;
+  --text-font-Lato: "Lato", sans-serif;
+  --text-font-PlayfairDisplay: "Playfair Display", serif;
+}
+.container {
+  max-width: 1410px;
+}
+.header-up {
+  position: relative;
+  text-align: center;
+  background-color: var(--bg-color);
+  color: white;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  font-family: var(--text-font-Lato);
+}
+.x-mark {
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 16px;
+  bottom: 20px;
+}
+.header-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 40px;
+}
+.header-down-left {
+  font-family: var(--text-font-PlayfairDisplay);
+  font-size: 4.8rem;
+  font-weight: 500;
+  color: var(--text-color-header);
+}
+.header-down-right ul {
+  display: flex;
+  gap: 30px;
+}
+a {
+  text-decoration: none;
+  color: var(--text-color-header);
+  font-size: 1.6rem;
+  font-weight: 600;
+  font-family: var(--text-font-Lato);
+}
+.header-button {
+  display: flex;
+  cursor: pointer;
+  gap: 20px;
+  color: var(--text-color-header);
+}
+.header img {
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+.title {
+  text-align: center;
+  font-size: 7rem;
+  font-family: var(--text-font-PlayfairDisplay);
+  font-weight: 500;
+  color: var(--text-color-title-content);
+  margin-bottom: 30px;
+}
+.banner ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 20px;
+}
+p {
+  font-family: var(--text-font-Lato);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-color-content);
+  margin: 20px 0px;
+}
+h1 {
+  font-size: 2.8rem;
+  font-family: var(--text-font-PlayfairDisplay);
+  font-weight: 400;
+  color: var(--text-color-title-content);
+}
+button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: var(--bg-color);
+  padding: 24px;
+  font-size: 2rem;
+  font-family: var(--text-font-Lato);
+  font-weight: 500;
+  margin-bottom: 50px;
+}
